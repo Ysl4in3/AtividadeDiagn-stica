@@ -7,7 +7,7 @@ package atividade.pkg01;
 
 /**
  *
- * @author aluno
+ * @author yslaine
  */
 public class pessoa {
     abstract class Pessoa implements Atividade01.Printable {
