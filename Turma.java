@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  *
- * @author aluno
+ * @author yslaine
  */
 public class Turma {
     class Turma {
