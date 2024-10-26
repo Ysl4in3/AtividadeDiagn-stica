@@ -7,7 +7,7 @@ package atividade.pkg01;
 
 /**
  *
- * @author aluno
+ * @author yslaine
  */
 public class Atividade01 {
 
