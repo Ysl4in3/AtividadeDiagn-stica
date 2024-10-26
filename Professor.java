@@ -7,7 +7,7 @@ package atividade.pkg01;
 
 /**
  *
- * @author aluno
+ * @author yslaine
  */
 public class Professor {
     class Professor extends Atividade01.Pessoa {
