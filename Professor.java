@@ -1,16 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package atividade.pkg01;
+package com.mycompany.atividadediagnostica2;
 
 /**
  *
  * @author yslaine
  */
 public class Professor {
-    class Professor extends Atividade01.Pessoa {
+
+    public Professor(String luis_Araujo, String string, String rua_K_Bairro_L, String _67890123, int par) {
+    }
+    class Professor extends Pessoa {
     private int siape;
 
     public Professor(String nome, String cpf, String endereco, String telefone, int siape) {
@@ -24,4 +22,6 @@ public class Professor {
         System.out.println(" - SIAPE: " + siape);
     }
 }
+
+    
 }
