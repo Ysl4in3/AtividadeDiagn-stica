@@ -1,28 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package atividade.pkg01;
+package com.mycompany.atividadediagnostica2;
 
 /**
  *
  * @author yslaine
  */
 public class Curso {
-    class Curso {
+ 
     private String nomeCurso;
     private int quantidadeSemestres;
+    private Coordenador coordenador;
 
-    public Curso(String nomeCurso, int quantidadeSemestres) {
+    public Curso(String nomeCurso, int quantidadeSemestres, Coordenador coordenador) {
         this.nomeCurso = nomeCurso;
         this.quantidadeSemestres = quantidadeSemestres;
+        this.coordenador = coordenador;
     }
 
     public String getNomeCurso() {
         return nomeCurso;
     }
-}
 
-    
+    public Coordenador getCoordenador() {
+        return coordenador;
+    }
+}
 }
