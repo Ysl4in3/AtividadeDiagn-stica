@@ -1,11 +1,7 @@
-package com.mycompany.atividadediagnostica2;
+package com.mycompany.atividade02;
 
-/**
- *
- * @author yslaine
- */
 public class Curso {
- 
+
     private String nomeCurso;
     private int quantidadeSemestres;
     private Coordenador coordenador;
@@ -14,6 +10,11 @@ public class Curso {
         this.nomeCurso = nomeCurso;
         this.quantidadeSemestres = quantidadeSemestres;
         this.coordenador = coordenador;
+        
+        // Vincula o curso ao coordenador, quando o curso é criado
+        if (coordenador != null) {
+            coordenador.setCurso(this);
+        }
     }
 
     public String getNomeCurso() {
@@ -23,5 +24,13 @@ public class Curso {
     public Coordenador getCoordenador() {
         return coordenador;
     }
-}
+
+    // Método para exibir informações do curso
+    public void printInfo() {
+        System.out.println("Curso: " + nomeCurso + " - Semestres: " + quantidadeSemestres);
+        if (coordenador != null) {
+            System.out.print("Coordenador: ");
+            coordenador.printInfo(); // Exibe as informações do coordenador
+        }
+    }
 }
